@@ -136,12 +136,16 @@
 
   <script>
     function confirmarAsistencia() {
-      alert('🎉 ¡Gracias por confirmar tu asistencia! Nos encantará verte en la fiesta 🦒🎂');
-    }
+const numeroWhatsApp = '525541166413';
+const mensaje = encodeURIComponent('¡Hola! Confirmo asistencia a la fiesta de Ehitan 🎉');
+window.location.href = `https://wa.me/${numeroWhatsApp}?text=${mensaje}`;
+}
 
-    function verUbicacion() {
-      window.open('https://maps.google.com?q=salon+de+fiestas+infantil', '_blank');
-    }
+
+function verUbicacion() {
+window.location.href = 'https://www.google.com/maps/@19.6510647,-99.0818007,3a,75y,140.59h,90t/data=!3m7!1e1!3m5!1sw4FNyogcBX-of26QNis37A!2e0!6shttps:%2F%2Fstreetviewpixels-pa.googleapis.com%2Fv1%2Fthumbnail%3Fcb_client%3Dmaps_sv.tactile%26w%3D900%26h%3D600%26pitch%3D0%26panoid%3Dw4FNyogcBX-of26QNis37A%26yaw%3D140.59!7i16384!8i8192?hl=es&entry=ttu&g_ep=EgoyMDI1MTAyMi4wIKXMDSoASAFQAw%3D%3D';
+}
+
 
     // Rotación de imágenes automáticas
     const imagenes1 = [
@@ -203,3 +207,4 @@
   </script>
 </body>
 </html>
+
